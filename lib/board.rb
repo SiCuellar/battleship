@@ -16,6 +16,6 @@ class Board
     @board_grid = cells.map do |point|
       Cell.new(point)
     end
-    p @board_grids = @board_grid.each_slice(4).to_a
+    @board_grids = @board_grid.each_slice(4).to_a
   end
 end

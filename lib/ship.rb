@@ -13,7 +13,7 @@ class Ship
     @sink_counter = 0
   end
 
-  def take_hit
+  def hit
     @length -= 1
   end
 
