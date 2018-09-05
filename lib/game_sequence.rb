@@ -1,6 +1,7 @@
 require "./lib/board"
 require "./lib/cell"
 require "./lib/ship"
+require "./lib/ship_deployment"
 
 class GameSequence
   def initialize
@@ -33,7 +34,8 @@ class GameSequence
   end
 
   def computer_setup
-    computer_board.make_board_grid
+    @computer_board.make_board_grid
+
 
 
   end
