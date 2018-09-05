@@ -14,6 +14,4 @@ class BoardMinitest < Minitest::Test
     board = Board.new()
 
   end
-
-
 end

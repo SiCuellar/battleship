@@ -11,5 +11,6 @@ class CellMinitest < Minitest::Test
 
   def test_it_has_attributes
     cell = Cell.new("A3", )
+  end 
 
 end

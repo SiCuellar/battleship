@@ -5,7 +5,7 @@ class Cell
                 :hit,
                 :miss,
                 :ship
-  def initialize(point, state = "~")
+  def initialize(point, state = " ")
     @point = point
     @state = state
     @hit = false
