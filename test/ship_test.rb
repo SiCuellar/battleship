@@ -29,7 +29,15 @@ class ShipTest < Minitest::Test
     ship.hit
     ship.hit
 
-    assert_equal true, ship.sunk
+    assert ship.sunk
+  end
+
+  def test_it_checks_if_sunk
+    ship = Ship.new(2)
+
+    ship.hit
+
+    refute ship.sunk
   end 
 
 
