@@ -2,22 +2,22 @@ require "pry"
 require "./lib/cell"
 
 class Ship
-  attr_reader :length,
+  attr_reader :life_ticker,
               :sink_counter
 
   attr_accessor :sunk
 
-  def initialize(length)
-    @length = length
+  def initialize(life_ticker)
+    @life_ticker =  life_ticker
     @sink_counter = 0
   end
 
   def hit
-    @length -= 1
+    @life_ticker -= 1
   end
 
   def sunk
-    if @length == 0
+    if @life_ticker == 0
       @sink_counter += 1
       true
     else
