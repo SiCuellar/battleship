@@ -6,11 +6,11 @@ require "./lib/ship_deployment"
 class GameSequence
   def initialize
     @player_board = Board.new
-    @player_ship_2 = Ship.new(2, "Player Patrol_boat", "2")
-    @player_ship_3 = Ship.new(3, "Player Destroyer", "3")
+    @player_ship_2 = Ship.new(2)
+    @player_ship_3 = Ship.new(3)
     @computer_board = Board.new
-    @computer_ship_2 = Ship.new(2, "Computer Patrol_boat", "2")
-    @computer_ship_3 = Ship.new(2, "Computer Destroyer", "3")
+    @computer_ship_2 = Ship.new(2)
+    @computer_ship_3 = Ship.new(2)
   end
 
   def launch

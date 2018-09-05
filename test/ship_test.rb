@@ -1,6 +1,7 @@
 require "minitest/autorun"
 require "minitest/emoji"
 require "./lib/ship"
+require './test/helper_test'
 
 class ShipTest < Minitest::Test
 
@@ -38,7 +39,7 @@ class ShipTest < Minitest::Test
     ship.hit
 
     refute ship.sunk
-  end 
+  end
 
 
 end

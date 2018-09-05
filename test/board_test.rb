@@ -1,6 +1,7 @@
 require "minitest/emoji"
 require "minitest/autorun"
 require "./lib/board"
+require './test/helper_test'
 
 class BoardMinitest < Minitest::Test
   def test_it_exist

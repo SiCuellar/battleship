@@ -2,6 +2,7 @@ require "minitest/autorun"
 require "minitest/emoji"
 require "./lib/cell.rb"
 require "./lib/ship"
+require './test/helper_test'
 
 class CellMinitest < Minitest::Test
   def test_it_exist
