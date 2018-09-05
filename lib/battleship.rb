@@ -1,12 +1,4 @@
-require './lib/board'
-require './lib/cell'
-require './lib/ship'
+require "./lib/game_sequence"
 
-
-puts "Welcome to BATTLEHIP!"
-puts "Please select one of the followings"
-puts " (p) to play"
-puts " (i) for instructions"
-puts " (q) to quit"
-
-user_input = gets
+game_seq = GameSequence.new
+game_seq.launch 
