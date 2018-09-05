@@ -40,6 +40,4 @@ class ShipTest < Minitest::Test
 
     refute ship.sunk
   end
-
-
 end

@@ -2,14 +2,10 @@ require "pry"
 class Cell
   attr_reader :position
   attr_accessor :state,
-                :hit,
-                :miss,
                 :ship
-  def initialize(point, state = "~")
+  def initialize(point, state = " ")
     @point = point
     @state = state
-    @hit = false
-    @miss = false
     @ship = nil
   end
 

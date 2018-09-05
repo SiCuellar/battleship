@@ -32,7 +32,6 @@ class CellMinitest < Minitest::Test
   end
 
   def test_it_can_switch_state
-
     cell = Cell.new("A3")
     ship = Ship.new(2)
 
