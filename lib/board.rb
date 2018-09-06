@@ -3,7 +3,7 @@ require "./lib/cell"
 class Board
   attr_reader :board_grid
   def initialize
-    @board_grid 
+    @board_grid = []
   end
 
   def make_board_grid
@@ -18,4 +18,5 @@ class Board
     end
     @board_grids = @board_grid.each_slice(4).to_a
   end
+
 end

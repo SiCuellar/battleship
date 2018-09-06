@@ -9,16 +9,28 @@ class Player
   def player_ship_placement_input(coordinate)
     coordinate_input = coordinate
     grid_board = @board.make_board_grid.flatten
-     grid_board.map do |cell|
-      if cell.point == coordinate_input
-          cell.ship = true
+      grid_board.map do |cell|
+        if cell.point == coordinate_input
+        cell.ship = true
+        end
       end
-    end
+      binding.pry
   end
 
   def board_grid
     @board.make_board_grid
   end
+
+  def ship?(coordinate)
+    grid_board = board_grid.flatten
+    grid_board.include?(coordinate) do |cell|
+      cell.ship = true
+
+    end
+    binding.pry
+  end
+
+
 
   # def print_board
   #   puts " ===========\n

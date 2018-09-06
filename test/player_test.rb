@@ -17,11 +17,10 @@ class PlayerTest < Minitest::Test
   end
 
   def test_it_can_place_ship
+    skip
     player = Player.new
 
     player.player_ship_placement_input("A1")
-
-    
-
+    assert player.ship?("A1")
   end
 end

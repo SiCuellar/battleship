@@ -18,11 +18,22 @@
         0,
         null,
         null,
-        null,
+        0,
         null,
         null,
         1,
         0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        0,
+        null,
+        null,
         null,
         null,
         null,
@@ -57,6 +68,7 @@
         null,
         0,
         null,
+        null,
         null
       ],
       "/Users/Silver/turing/1.2module/Turing_Projects/battle_ship.rb/lib/cell.rb": [
@@ -89,6 +101,6 @@
         null
       ]
     },
-    "timestamp": 1536192072
+    "timestamp": 1536194620
   }
 }

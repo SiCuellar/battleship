@@ -5,7 +5,7 @@ require './test/helper_test'
 
 class BoardMinitest < Minitest::Test
   def test_it_exist
-    board =Board.new
+    board = Board.new
 
     assert_instance_of Board, board
   end
@@ -17,6 +17,7 @@ class BoardMinitest < Minitest::Test
 
     assert_equal Cell, board_grid[0][0].class
   end
+
 end
 
 # what else can  I test?
