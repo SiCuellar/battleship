@@ -25,6 +25,3 @@ class Ship
     end
   end
 end
-
-
-#add print board

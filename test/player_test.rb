@@ -23,4 +23,13 @@ class PlayerTest < Minitest::Test
     player.player_ship_placement_input("A1")
     assert player.ship?("A1")
   end
+
+  def test_it_can_print_game_board
+    skip
+    player = Player.new
+
+    expected = "A1"
+    assert_equal expected, player.print_board
+  end
+
 end
