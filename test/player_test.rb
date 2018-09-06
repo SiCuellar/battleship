@@ -16,9 +16,12 @@ class PlayerTest < Minitest::Test
     assert_instance_of Board, player.board
   end
 
-  def test_it_can_place_place_ship
+  def test_it_can_place_ship
     player = Player.new
 
-    assert_equal "x", player.player_ship_input
-  end 
+    player.player_ship_placement_input("A1")
+
+    
+
+  end
 end

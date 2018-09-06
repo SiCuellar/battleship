@@ -1,6 +1,6 @@
 require "pry"
 class Cell
-  attr_reader :position
+  attr_reader :point
   attr_accessor :state,
                 :ship
   def initialize(point, state = " ")

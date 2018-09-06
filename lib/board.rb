@@ -3,7 +3,7 @@ require "./lib/cell"
 class Board
   attr_reader :board_grid
   def initialize
-    @board_grid = []
+    @board_grid 
   end
 
   def make_board_grid
