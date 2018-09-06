@@ -18,4 +18,5 @@ class Board
     end
     @board_grids = @board_grid.each_slice(4).to_a
   end
+
 end
